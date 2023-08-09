@@ -1,0 +1,13 @@
+{
+  "name": "direnv",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.40",
+    "prettier": "^3.0.1",
+    "tsx": "^3.12.7"
+  }
+}
