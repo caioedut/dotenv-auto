@@ -1,7 +1,26 @@
 {
-  "name": "direnv",
+  "name": "dotenv-auto",
+  "description": "Automatically loads `.env` files",
   "version": "1.0.0",
+  "keywords": [
+    "dotenv",
+    "env",
+    ".env",
+    "environment",
+    "variables",
+    "config",
+    "settings"
+  ],
   "license": "MIT",
+  "repository": "https://github.com/caioedut/dotenv-auto",
+  "author": {
+    "name": "Caio Teixeira",
+    "email": "caioedut@gmail.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
   "dependencies": {
     "dotenv": "*"
   },
