@@ -21,11 +21,16 @@
     "dist"
   ],
   "main": "dist/index.js",
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "publish:stable": "tsx scripts/publish.ts"
+  },
   "dependencies": {
     "dotenv": "*"
   },
   "devDependencies": {
     "@types/node": "^16.18.40",
+    "pmex": "^0.0.35",
     "prettier": "^3.0.1",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6"
