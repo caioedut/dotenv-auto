@@ -19,3 +19,11 @@ Simply import at the top of the file.
 ```javascript
 import 'dotenv-auto';
 ```
+
+Sometimes it is necessary to manually reload, so you can use:
+
+```javascript
+import { config } from 'dotenv-auto';
+
+config();
+```

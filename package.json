@@ -1,7 +1,7 @@
 {
   "name": "dotenv-auto",
+  "version": "1.1.0",
   "description": "Automatically loads `.env` files",
-  "version": "1.0.0",
   "keywords": [
     "dotenv",
     "env",
