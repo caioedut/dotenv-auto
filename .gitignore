@@ -8,8 +8,10 @@ node_modules/
 .pnp.js
 
 # production
-build/
-dist/
+index.js
+index.d.ts
+api.js
+api.d.ts
 
 # npm
 package-lock.json

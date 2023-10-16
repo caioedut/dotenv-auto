@@ -3,7 +3,7 @@
     "module": "commonjs",
     "moduleResolution": "Node",
     "target": "es2016",
-    "outDir": "./dist",
+    "outDir": ".",
     "strict": true,
     "declaration": true,
     "skipLibCheck": true,
@@ -12,5 +12,8 @@
   },
   "include": [
     "lib/**/*"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

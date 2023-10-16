@@ -9,7 +9,8 @@
     "environment",
     "variables",
     "config",
-    "settings"
+    "settings",
+    "autload"
   ],
   "license": "MIT",
   "repository": "https://github.com/caioedut/dotenv-auto",
@@ -18,9 +19,12 @@
     "email": "caioedut@gmail.com"
   },
   "files": [
-    "dist"
+    "index.js",
+    "index.d.ts",
+    "api.js",
+    "api.d.ts"
   ],
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "example": "tsx scripts/example.ts",
     "build": "tsx scripts/build.ts",
