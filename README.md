@@ -23,7 +23,15 @@ import 'dotenv-auto';
 Sometimes it is necessary to manually reload, so you can use:
 
 ```javascript
-import { config } from 'dotenv-auto';
+import { config } from 'dotenv-auto/lib';
 
 config();
+```
+
+To retrieve a single key value, just use `env`:
+
+```javascript
+import { env } from 'dotenv-auto/lib';
+
+const appEnv = env('NODE_ENV');
 ```
