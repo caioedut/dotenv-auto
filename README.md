@@ -20,18 +20,27 @@ Simply import at the top of the file.
 import 'dotenv-auto';
 ```
 
+## API
+
+
+### config()
 Sometimes it is necessary to manually reload, so you can use:
 
 ```javascript
-import { config } from 'dotenv-auto/lib';
+import { config } from 'dotenv-auto/api';
 
 config();
+
+console.log(process.env.APP_NAME);
 ```
 
+### env()
 To retrieve a single key value, just use `env`:
 
 ```javascript
-import { env } from 'dotenv-auto/lib';
+import { env } from 'dotenv-auto/api';
 
-const appEnv = env('NODE_ENV');
+const appName = env('APP_NAME');
+
+console.log(process.env.APP_NAME);
 ```

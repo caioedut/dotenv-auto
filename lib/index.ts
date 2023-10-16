@@ -1,4 +1,4 @@
-import { config } from './lib';
+import { config } from './api';
 
 // Auto Load
 config({ verbose: true });

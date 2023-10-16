@@ -1,4 +1,4 @@
-import { env } from './dist/lib';
+import { env } from './dist/api';
 
 process.stdout.write(`\n`);
 process.stdout.write(`\x1b[35m`);
