@@ -2,7 +2,7 @@ import { execSync } from 'child_process';
 
 import pmex from 'pmex';
 
-pmex('test');
+// pmex('test');
 
 pmex('build');
 
