@@ -1,3 +1,6 @@
+# Deprecation
+**Warning:** This extension library is **deprecated**. It is now recommended to install `dotenv` and use `import 'dotenv/config'` directly to load environment variables.
+
 # dotenv-auto
 
 This lib automatically loads `.env` files according to to the [standard .env file resolution](https://github.com/bkeepers/dotenv/blob/c6e583a/README.md#what-other-env-files-can-i-use) and then replaces all references in your code to `process.env.[VARNAME]`.
